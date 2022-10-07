@@ -29,7 +29,7 @@ body {
   padding-right: 50px;
   padding-top: 10px;
   padding-bottom: 30px;
-  max-width: 60%;
+  max-width: 960px;
 }
 
 #layout-menu {
@@ -372,43 +372,3 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
-
-.publications-section {
-    padding: 10px 0 20px 0;
-    text-align: left;
-}
-
-.publications-section .container{
-    width: 75%;
-}
-
-.publications-section .contents {
-    margin: auto;
-    width: 95%;
-    text-align: left;
-    padding-top: 10px;
-    font-size: 18px;
-}
-
-.publications-section .contents .conf{
-    color: inherit;
-    text-decoration: none;
-}
-
-.publications-section .contents .list-group-item-heading{
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.publications-section .contents .detail{
-    font-size: 16px;
-    margin: auto;
-}
-
-.publications-section .contents .detail span{
-    color: red;
-}
-
-.publications-section .contents .abstract{
-    font-size: 14px;
-    padding-top: 5px;
