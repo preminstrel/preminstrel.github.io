@@ -15,6 +15,9 @@ body {
 html {
   background-color: #ffffff; 
 }
+br {
+    line-height: 5px;
+}
 
 body { 
   font-family: Georgia, serif;
