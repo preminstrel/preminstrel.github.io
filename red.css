@@ -57,7 +57,7 @@ html {
   }
   
   a:hover {
-      border-bottom: 1px gray dotted;
+    color: #bb0000;
   }
   
   #layout-menu a.current:link, #layout-menu a.current:visited {
