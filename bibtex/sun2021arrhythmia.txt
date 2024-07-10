@@ -1,0 +1,8 @@
+@inproceedings{sun2021arrhythmia,
+  title={Arrhythmia classifier using convolutional neural network with adaptive loss-aware multi-bit networks quantization},
+  author={Sun, Hanshi and Wang, Ao and Pu, Ninghao and Li, Zhiqing and Huang, Junguang and Liu, Hao and Qi, Zhi},
+  booktitle={2021 2nd International Conference on Artificial Intelligence and Computer Engineering (ICAICE)},
+  pages={461--467},
+  year={2021},
+  organization={IEEE}
+}

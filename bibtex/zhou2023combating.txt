@@ -1,0 +1,9 @@
+@article{zhou2023combating,
+  title={Combating medical noisy labels by disentangled distribution learning and consistency regularization},
+  author={Zhou, Yi and Huang, Lei and Zhou, Tao and Sun, Hanshi},
+  journal={Future Generation Computer Systems},
+  volume={141},
+  pages={567--576},
+  year={2023},
+  publisher={Elsevier}
+}

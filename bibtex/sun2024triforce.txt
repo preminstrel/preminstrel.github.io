@@ -1,0 +1,6 @@
+@article{sun2024triforce,
+  title={Triforce: Lossless acceleration of long sequence generation with hierarchical speculative decoding},
+  author={Sun, Hanshi and Chen, Zhuoming and Yang, Xinyu and Tian, Yuandong and Chen, Beidi},
+  journal={arXiv preprint arXiv:2404.11912},
+  year={2024}
+}

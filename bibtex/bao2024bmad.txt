@@ -1,0 +1,7 @@
+@inproceedings{bao2024bmad,
+  title={Bmad: Benchmarks for medical anomaly detection},
+  author={Bao, Jinan and Sun, Hanshi and Deng, Hanqiu and He, Yinsheng and Zhang, Zhaoxiang and Li, Xingyu},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={4042--4053},
+  year={2024}
+}
