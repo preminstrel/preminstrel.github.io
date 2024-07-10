@@ -85,12 +85,8 @@
             </li>
             <li>
                 <p style="line-height: 1.5;">[2023/06/20] Graduate from <a
-                            href="https://www.seu.edu.cn/english/" target="blank">Southeast University</a> <img src="assets/img/seu_l.jpeg" height="26px" style="vertical-align:middle"> with a bachelor degree.</p>
+                            href="https://www.seu.edu.cn/english/" target="blank">Southeast University</a> <img src="assets/img/seu_l.jpeg" height="28px" style="vertical-align:middle"> with a bachelor degree <img src="assets/img/seu_ee.jpeg" height="28px" style="vertical-align:middle"> <img id="school_logo" src="assets/img/PALMLogo.png" height="28px" style="vertical-align:middle">.</p>
             </li>
-            <!-- <li>
-                <p style="line-height: 1.5;">[2023/02/17] I will pursue my M.S. in ECE at <a href=https://www.cmu.edu>Carnegie Mellon University</a> in Fall 2023.</p>
-                </p>
-            </li> -->
             <li>
                 <p style="line-height: 1.5;">[2022/11/15] I am working at <img src="assets/img/apple.png" width=15px"  style="vertical-align:middle"> Apple as an intern in EE/SW team for eight months.
                 </p>
@@ -105,119 +101,245 @@
         </div>
     </ul>
     <h2>Publications</h2>
-    I'm interested in LLM efficiency, MLSys, generative AI. Selected papers are <span style="background-color: #ffffd0;">highlighted</span>.
-    <br>
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-        <tr onmouseout="triforce_stop()" onmouseover="triforce_start()" bgcolor="#ffffd0">
-            <td style="padding:10px;width:25%;vertical-align:middle">
-                <div>
-                    <div style="opacity: 0; position: absolute; transition: opacity .2s ease-in-out; -moz-transition: opacity .2 ease-in-out; -webkit-transition: opacity .2 ease-in-out;" id="triforce_image">
-                        <video loop autoplay muted width="400px" >
-                            <source src="assets/video/TriForce.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <div>
-                        <img src="assets/img/TriForce.png" alt="TriForce", style="width: 400px; padding-top:40px; padding-bottom: 25px;">
-                    </div>
-                </div>
-                <script type="text/javascript">
-                    function triforce_start() {
-                        document.getElementById('triforce_image').style.opacity = "1";
-                    }
+    <style>
+        .button {
+            border: none;
+            background-color: transparent;
+            padding: 0;
+            font: inherit;
+            text-decoration: underline;
+            cursor: pointer;
+            outline: none;
+        }
 
-                    function triforce_stop() {
-                        document.getElementById('triforce_image').style.opacity = "0";
-                    }
-                    triforce_stop()
-                </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://infini-ai-lab.github.io/TriForce/" target="blank"><b><span class="TriForceFont" style="display: inline; font-size: 15pt;">*</span>TriForce: Lossless Acceleration of Long Sequence Generation with Hierarchical Speculative Decoding</b></a>
-                <br>
-                <br>
-                <strong>Hanshi Sun</strong>, <a href="https://dreaming-panda.github.io/">Zhuoming Chen</a>, <a href="https://xinyuyang.me/">Xinyu Yang</a>, <a href="https://yuandong-tian.com/">Yuandong Tian</a>, and <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a><br>
-                <p><i>Conference on Language Modeling (COLM)</i>, 2024</p><br>
-                <p>
-                    <a href="https://infini-ai-lab.github.io/TriForce/" target="blank">project page</a> / <a href="https://arxiv.org/abs/2404.11912.pdf" target="blank">paper</a> / <a href="https://github.com/infini-ai-lab/TriForce/" target="blank">code <img src="https://img.shields.io/github/stars/infini-ai-lab/TriForce?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="https://youtu.be/vRAaAyjr6Jo" target="blank">video</a>
-                </p>
-                <br>
-                <p>Training-free Lossless Long Sequence Generation Acceleration</p>
-            </td>
-        </tr>
-        <tr>&nbsp</tr>
-        <tr>&nbsp</tr>
-        <tr>&nbsp</tr>
-    </table>
-    <table>
-        <tr>
-            <td style="padding:10px;width:25%;vertical-align:middle">
-                <img src="assets/img/BMAD.png" width="400px">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <b>BMAD: Benchmarks for Medical Anomaly Detection
-                </b> <br>
-                <br>
-                Jinan Bao, <strong>Hanshi Sun</strong>, Hanqiu Deng, Zhaoxiang Zhang, and <a href="https://www.ece.ualberta.ca/~xingyu/index.html">Xingyu Li</a>
-                <br>
-                <p><i>Computer Vision and Pattern Recognition (CVPR) Workshop</i>, 2024</p><br>
-                <p>
-                    <a href="https://arxiv.org/pdf/2306.11876.pdf" target="blank">paper</a> / <a href="https://github.com/DorisBao/BMAD" target="blank">code <img src="https://img.shields.io/github/stars/DorisBao/BMAD?style=social&label=Github+Stars" style="vertical-align:middle"></a>
-                </p>
-                <br>
-                <p>This benchmark encompasses six reorganized datasets from five medical domains (i.e. brain MRI, liver CT, retinal OCT, chest X-ray, and digital histopathology) and three key evaluation metrics, and includes a total of fourteen state-of-the-art AD algorithms.</p>
-            </td>
-        </tr>
-        <tr>&nbsp</tr>
-        <tr>&nbsp</tr>
-        <tr>&nbsp</tr>
-    </table>
-    <table>
-        <tr>
-            <td style="padding:10px;width:25%;vertical-align:middle">
-                <img src="assets/img/combat_label_noise.png" width="400px">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <b>Combating Medical Noisy Labels by Disentangled Distribution Learning and Consistency Regularization
-                </b> <br> <br>
-                <a href="https://scholar.google.co.uk/citations?user=EnDCJKMAAAAJ&hl=en">Yi Zhou</a>, <a href="https://huangleibuaa.github.io">Lei Huang</a>, <a href="https://taozh2017.github.io">Tao Zhou</a> and <strong>Hanshi Sun</strong><br>
-                <i>Future Generation Computer Systems (FGCS)</i>, 2022<br><br>
-                <p>
-                    <a href="https://www.sciencedirect.com/science/article/pii/S0167739X22004228" target="blank">paper</a>
-                </p>
-                <br>
-                <p>Disentangled distribution learning reduces effect of label uncertainty and ambiguity</p>
-            </td>
-        </tr>
-        <tr>&nbsp</tr>
-        <tr>&nbsp</tr>
-        <tr>&nbsp</tr>
-    </table>
-    <table>
-        <tr>
-            <td style="padding:10px;width:25%;vertical-align:middle">
-                <img src="assets/img/ecg.png" width="400px">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <b>Arrhythmia Classifier Using Convolutional Neural Network with Adaptive Loss-aware Multi-bit Networks
-                    Quantization
-                </b>
-                <br>
-                <strong>Hanshi Sun</strong>, Ao Wang, Ninghao Pu, Zhiqing Li, Junguang Huang, <a href="https://electronic.seu.edu.cn/lh/list.htm">Hao Liu</a> and Zhi Qi <br>
-                <i>ICAICE</i>, 2021 <br><br>
-                <p>
-                    <a href="https://preminstrel.github.io/ECG-Classification/" target="blank">project page</a> / 
-                    <a href="https://ieeexplore.ieee.org/document/9797527" target="blank">paper</a> / 
-                    <a href="https://github.com/preminstrel/ECG-Classification" target="blank">code</a> 
-                </p>
-                <br>
-                <p>Present a 1-D adaptive loss-aware quantization, achieving a high compression rate that reduces memory consumption by 23.36x</p>
-            </td>
-        </tr>
-        <tr>&nbsp</tr>
-        <tr>&nbsp</tr>
-        <tr>&nbsp</tr>
-    </table>
+        .selected-button {
+            border: none;
+            background-color: transparent;
+            padding: 0;
+            font: inherit;
+            text-decoration: underline;
+            cursor: pointer;
+            outline: none;
+            color: #089797;
+        }
+    </style>
+    <p>
+        <button class="button selected-button" id="button1" onclick="showSelectedPublications(); selectButton('button1')">Representative Papers</button> / 
+        <button class="button" id="button2" onclick="showFullPublications(); selectButton('button2')">Full Papers by Year</button>.
+        Selected papers are <span style="background-color: #ffffd0;">highlighted</span>.
+    </p>
+    <div id="selected_publications">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tr onmouseout="triforce_stop()" onmouseover="triforce_start()" bgcolor="#ffffd0">
+                <td style="padding:10px;width:25%;vertical-align:middle">
+                    <div>
+                        <div style="opacity: 0; position: absolute; transition: opacity .2s ease-in-out; -moz-transition: opacity .2 ease-in-out; -webkit-transition: opacity .2 ease-in-out;" id="triforce_image">
+                            <video loop autoplay muted width="400px" >
+                                <source src="assets/video/TriForce.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div>
+                            <img src="assets/img/TriForce.png" alt="TriForce", style="width: 400px; padding-top:40px; padding-bottom: 25px;">
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        function triforce_start() {
+                            document.getElementById('triforce_image').style.opacity = "1";
+                        }
+
+                        function triforce_stop() {
+                            document.getElementById('triforce_image').style.opacity = "0";
+                        }
+                        triforce_stop()
+                    </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://infini-ai-lab.github.io/TriForce/" target="blank"><b><span class="TriForceFont" style="display: inline; font-size: 15pt;">*</span>TriForce: Lossless Acceleration of Long Sequence Generation with Hierarchical Speculative Decoding</b></a>
+                    <br>
+                    <br>
+                    <strong>Hanshi Sun</strong>, <a href="https://dreaming-panda.github.io/">Zhuoming Chen</a>, <a href="https://xinyuyang.me/">Xinyu Yang</a>, <a href="https://yuandong-tian.com/">Yuandong Tian</a>, and <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a><br>
+                    <p><i>Conference on Language Modeling (COLM)</i>, 2024</p><br>
+                    <p>
+                        <a href="https://infini-ai-lab.github.io/TriForce/" target="blank">project page</a> / <a href="https://arxiv.org/abs/2404.11912.pdf" target="blank">arXiv</a> / <a href="https://github.com/infini-ai-lab/TriForce/" target="blank">code <img src="https://img.shields.io/github/stars/infini-ai-lab/TriForce?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="https://youtu.be/vRAaAyjr6Jo" target="blank">video</a> / <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:bp-itwUOHXAJ:scholar.google.com/&output=citation&scisdr=ClG0a-g6EJ-bnjzv8TA:AFWwaeYAAAAAZo7p6TC4VnrhNULFVGO079MsrrU&scisig=AFWwaeYAAAAAZo7p6QAHswb1bAfhVcA_4lmIAIE&scisf=4&ct=citation&cd=-1&hl=en", target="blank">bibtex</a>
+                    </p>
+                    <br>
+                    <p>Training-free Lossless Long Sequence Generation Acceleration</p>
+                </td>
+            </tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+        </table>
+        <table>
+            <tr>
+                <td style="padding:10px;width:25%;vertical-align:middle">
+                    <img src="assets/img/BMAD.png" width="400px">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <b>BMAD: Benchmarks for Medical Anomaly Detection
+                    </b> <br>
+                    <br>
+                    Jinan Bao, <strong>Hanshi Sun</strong>, Hanqiu Deng, Zhaoxiang Zhang, and <a href="https://www.ece.ualberta.ca/~xingyu/index.html">Xingyu Li</a>
+                    <br>
+                    <p><i>Computer Vision and Pattern Recognition (CVPR) Workshop</i>, 2024</p><br>
+                    <p>
+                        <a href="https://arxiv.org/pdf/2306.11876.pdf" target="blank">arXiv</a> / <a href="https://github.com/DorisBao/BMAD" target="blank">code <img src="https://img.shields.io/github/stars/DorisBao/BMAD?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:zg9A8D2nj5AJ:scholar.google.com/&output=citation&scisdr=ClGWMUBaEJ-bnjzs36U:AFWwaeYAAAAAZo7qx6WIYXhq7H91D5L0JnGB5KA&scisig=AFWwaeYAAAAAZo7qx3TC4XO3J2dZG48jGGd460o&scisf=4&ct=citation&cd=-1&hl=en", target="blank">bibtex</a>
+                    </p>
+                    <br>
+                    <p>This benchmark encompasses six reorganized datasets from five medical domains (i.e. brain MRI, liver CT, retinal OCT, chest X-ray, and digital histopathology) and three key evaluation metrics, and includes a total of fourteen state-of-the-art AD algorithms.</p>
+                </td>
+            </tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+        </table>
+    </div>
+    <div id="full_publications" style="display: none;">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tr onmouseout="triforce_stop()" onmouseover="triforce_start()" bgcolor="#ffffd0">
+                <td style="padding:10px;width:25%;vertical-align:middle">
+                    <div>
+                        <div style="opacity: 0; position: absolute; transition: opacity .2s ease-in-out; -moz-transition: opacity .2 ease-in-out; -webkit-transition: opacity .2 ease-in-out;" id="triforce_image">
+                            <video loop autoplay muted width="400px" >
+                                <source src="assets/video/TriForce.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div>
+                            <img src="assets/img/TriForce.png" alt="TriForce", style="width: 400px; padding-top:40px; padding-bottom: 25px;">
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        function triforce_start() {
+                            document.getElementById('triforce_image').style.opacity = "1";
+                        }
+
+                        function triforce_stop() {
+                            document.getElementById('triforce_image').style.opacity = "0";
+                        }
+                        triforce_stop()
+                    </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://infini-ai-lab.github.io/TriForce/" target="blank"><b><span class="TriForceFont" style="display: inline; font-size: 15pt;">*</span>TriForce: Lossless Acceleration of Long Sequence Generation with Hierarchical Speculative Decoding</b></a>
+                    <br>
+                    <br>
+                    <strong>Hanshi Sun</strong>, <a href="https://dreaming-panda.github.io/">Zhuoming Chen</a>, <a href="https://xinyuyang.me/">Xinyu Yang</a>, <a href="https://yuandong-tian.com/">Yuandong Tian</a>, and <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a><br>
+                    <p><i>Conference on Language Modeling (COLM)</i>, 2024</p><br>
+                    <p>
+                        <a href="https://infini-ai-lab.github.io/TriForce/" target="blank">project page</a> / <a href="https://arxiv.org/abs/2404.11912.pdf" target="blank">arXiv</a> / <a href="https://github.com/infini-ai-lab/TriForce/" target="blank">code <img src="https://img.shields.io/github/stars/infini-ai-lab/TriForce?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="https://youtu.be/vRAaAyjr6Jo" target="blank">video</a> / <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:bp-itwUOHXAJ:scholar.google.com/&output=citation&scisdr=ClG0a-g6EJ-bnjzv8TA:AFWwaeYAAAAAZo7p6TC4VnrhNULFVGO079MsrrU&scisig=AFWwaeYAAAAAZo7p6QAHswb1bAfhVcA_4lmIAIE&scisf=4&ct=citation&cd=-1&hl=en", target="blank">bibtex</a>
+                    </p>
+                    <br>
+                    <p>Training-free Lossless Long Sequence Generation Acceleration</p>
+                </td>
+            </tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+        </table>
+        <table>
+            <tr>
+                <td style="padding:10px;width:25%;vertical-align:middle">
+                    <img src="assets/img/BMAD.png" width="400px">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <b>BMAD: Benchmarks for Medical Anomaly Detection
+                    </b> <br>
+                    <br>
+                    Jinan Bao, <strong>Hanshi Sun</strong>, Hanqiu Deng, Zhaoxiang Zhang, and <a href="https://www.ece.ualberta.ca/~xingyu/index.html">Xingyu Li</a>
+                    <br>
+                    <p><i>Computer Vision and Pattern Recognition (CVPR) Workshop</i>, 2024</p><br>
+                    <p>
+                        <a href="https://arxiv.org/pdf/2306.11876.pdf" target="blank">arXiv</a> / <a href="https://github.com/DorisBao/BMAD" target="blank">code <img src="https://img.shields.io/github/stars/DorisBao/BMAD?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:zg9A8D2nj5AJ:scholar.google.com/&output=citation&scisdr=ClGWMUBaEJ-bnjzs36U:AFWwaeYAAAAAZo7qx6WIYXhq7H91D5L0JnGB5KA&scisig=AFWwaeYAAAAAZo7qx3TC4XO3J2dZG48jGGd460o&scisf=4&ct=citation&cd=-1&hl=en", target="blank">bibtex</a>
+                    </p>
+                    <br>
+                    <p>This benchmark encompasses six reorganized datasets from five medical domains (i.e. brain MRI, liver CT, retinal OCT, chest X-ray, and digital histopathology) and three key evaluation metrics, and includes a total of fourteen state-of-the-art AD algorithms.</p>
+                </td>
+            </tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+        </table>
+        <table>
+            <tr>
+                <td style="padding:10px;width:25%;vertical-align:middle">
+                    <img src="assets/img/combat_label_noise.png" width="400px">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <b>Combating Medical Noisy Labels by Disentangled Distribution Learning and Consistency Regularization
+                    </b> <br> <br>
+                    <a href="https://scholar.google.co.uk/citations?user=EnDCJKMAAAAJ&hl=en">Yi Zhou</a>, <a href="https://huangleibuaa.github.io">Lei Huang</a>, <a href="https://taozh2017.github.io">Tao Zhou</a> and <strong>Hanshi Sun</strong><br>
+                    <i>Future Generation Computer Systems (FGCS)</i>, 2022<br><br>
+                    <p>
+                        <a href="https://www.sciencedirect.com/science/article/pii/S0167739X22004228" target="blank">paper</a>
+                    </p>
+                    <br>
+                    <p>Disentangled distribution learning reduces effect of label uncertainty and ambiguity</p>
+                </td>
+            </tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+        </table>
+        <table>
+            <tr>
+                <td style="padding:10px;width:25%;vertical-align:middle">
+                    <img src="assets/img/ecg.png" width="400px">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <b>Arrhythmia Classifier Using Convolutional Neural Network with Adaptive Loss-aware Multi-bit Networks
+                        Quantization
+                    </b>
+                    <br>
+                    <strong>Hanshi Sun</strong>, Ao Wang, Ninghao Pu, Zhiqing Li, Junguang Huang, <a href="https://electronic.seu.edu.cn/lh/list.htm">Hao Liu</a> and Zhi Qi <br>
+                    <i>ICAICE</i>, 2021 <br><br>
+                    <p>
+                        <a href="https://preminstrel.github.io/ECG-Classification/" target="blank">project page</a> / 
+                        <a href="https://ieeexplore.ieee.org/document/9797527" target="blank">paper</a> / 
+                        <a href="https://github.com/preminstrel/ECG-Classification" target="blank">code <img src="https://img.shields.io/github/stars/preminstrel/ECG-Classification?style=social&label=Github+Stars" style="vertical-align:middle"></a> 
+                    </p>
+                    <br>
+                    <p>Present a 1-D adaptive loss-aware quantization, achieving a high compression rate that reduces memory consumption by 23.36x</p>
+                </td>
+            </tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+        </table>
+    </div>
+
+    <script>
+        function showFullPublications() {
+            var selectedPublicationsDiv = document.getElementById('selected_publications');
+            selectedPublicationsDiv.style.display = 'none';
+
+            var fullPublicationsDiv = document.getElementById('full_publications');
+            fullPublicationsDiv.style.display = 'block';
+        }
+
+        function showSelectedPublications() {
+            var fullPublicationsDiv = document.getElementById('full_publications');
+            fullPublicationsDiv.style.display = 'none';
+
+            var selectedPublicationsDiv = document.getElementById('selected_publications');
+            selectedPublicationsDiv.style.display = 'block';
+        }
+
+        function selectButton(buttonId) {
+            var button1 = document.getElementById('button1');
+            var button2 = document.getElementById('button2');
+        
+            if (buttonId === 'button1') {
+              button1.classList.add('selected-button');
+              button2.classList.remove('selected-button');
+            } else if (buttonId === 'button2') {
+              button1.classList.remove('selected-button');
+              button2.classList.add('selected-button');
+            }
+          }
+    </script>
+
     <h2>Education</h2>
     <table>
         <tbody>
@@ -258,7 +380,7 @@
             <tr></tr>
         </tbody>
     </table>
-    <h2>Research Experience</h2>
+    <!-- <h2>Research Experience</h2>
     <table>
         <tbody>
             <tr>
@@ -279,11 +401,12 @@
                 <td><br><br><br><br></td>
                 <td>
                     <img src="assets/img/University_of_Alberta_logo.png" width="285px">
-                    <!-- <center><img src="assets/img/mitacs.jpeg" width="245px"></center> -->
+                        <center><img src="assets/img/mitacs.jpeg" width="245px"></center>
                 </td>
             </tr>
         </tbody>
     </table>
+    
     <table>
         <tbody>
             <tr>
@@ -310,14 +433,15 @@
             </tr>
             <tr></tr>
         </tbody>
-    </table>
+    </table> -->
+
     <h2>Professional Experience</h2>
     <table>
         <tbody>
             <tr>
                 <td width="800">
                     <p><strong>ByteDance Inc., Seattle, WA (Jun 2024 - Aug 2024)</strong></p>
-                    <i>MLSys Research Intern in Seed-Foundation</i>
+                    <i>Machine Learning System Research Intern in Seed-Foundation Team</i>
                     <ul>
                         <li>Placeholder</li>
                     </ul>
