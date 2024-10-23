@@ -31,15 +31,15 @@
                     <div id="toptitle">
                         <h1 style="color: black;">Hanshi Sun &nbsp 孙寒石</h1>
                     </div>
-                    <p>I am a Master student in Electrical and Computer Engineering at <a href=https://www.cmu.edu>Carnegie Mellon University</a>. Now I am working on LLM inference efficiency with Prof. <a
-                        href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a>. I obtained my bachelor degree at <a
+                    <p>I am a M.S. student in ECE at <a href=https://www.cmu.edu>Carnegie Mellon University</a>. Now I am working on LLM efficiency with Prof. <a
+                        href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a>. I also work closely with Prof. <a href="https://azanette.com/">Andrea Zanette</a>. I obtained my bachelor degree at <a
                             href="https://www.seu.edu.cn/english/" target="blank">Southeast University</a>. I was a
                         member of the <a href="http://palm.seu.edu.cn/members.html">PAttern Learning and Mining (PALM)
                             Lab</a> , where I am fortunate to be advised by Prof. <a
                             href="https://scholar.google.co.uk/citations?user=EnDCJKMAAAAJ&hl=en">Yi Zhou</a>. Before, I was
                         a research intern at the <a href=https://www.ualberta.ca/index.html target=_blank
                         rel=noopener>University of Alberta</a>, supervised by Prof. <a
-                            href="https://www.ece.ualberta.ca/~xingyu/index.html">Xingyu Li</a>. I also worked with Prof. Hao Liu before.
+                            href="https://www.ece.ualberta.ca/~xingyu/index.html">Xingyu Li</a>.
                         <br><br>
                         <img src="assets/img/gmail.png" width="20px" style="margin-bottom:-3px"> hanshis [at] andrew [dot] cmu [dot] edu<br><br>
                     </p>
@@ -75,7 +75,11 @@
     <ul>
         <div style="height:170px;width:fit-content;overflow:auto;background:#FFFFFF;">
             <li>
-                <p style="line-height: 1.5;">[2024/07/09] Our <a href="https://infini-ai-lab.github.io/TriForce/" target="blank">TriForce</a> has been accepted by <a href="https://colmweb.org/" target="blank">COLM 2024</a> 🦙! See you in Philadelphia!
+                <p style="line-height: 1.5;">[2024/10/01] Our Speculative Rejection has been accepted by <a href="https://nips.cc/" target="blank"><img src="assets/img/NeurIPS logo.svg" width="28px" style="vertical-align:middle"> NeurIPS 2024</a>! See you in Vancouver!
+                </p>
+            </li>
+            <li>
+                <p style="line-height: 1.5;">[2024/07/09] Our <a href="https://infini-ai-lab.github.io/TriForce/" target="blank">TriForce</a> has been accepted by <a href="https://colmweb.org/" target="blank">🦙 COLM 2024</a>! See you in Philadelphia!
                 </p>
             </li>
             <li>
@@ -131,9 +135,59 @@
     <p>
         <button class="button selected-button" id="button1" onclick="showSelectedPublications(); selectButton('button1')">Representative Papers</button> / 
         <button class="button" id="button2" onclick="showFullPublications(); selectButton('button2')">Full Papers by Year</button>.
-        Selected papers are <span style="background-color: #ffffd0;">highlighted</span>.
+        MLSys papers are <span style="background-color: #ffffd0;">highlighted</span>.
     </p>
     <div id="selected_publications">
+        <table style="background-color: #ffffd0;">
+            <tr>
+                <td style="padding:10px;width:25%;vertical-align:middle">
+                    <img src="assets/img/shadowkv_sys.png" width="400px">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://preminstrel.com" target="blank"><b><img src="assets/img/ShadowKV.png" width="24px"> ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference</a>
+                    </b> <br>
+                    <br>
+                    <strong>Hanshi Sun</strong>, <a href="https://lchang20.github.io/">Li-Wen Chang</a>, <a href="https://sites.google.com/view/wenleibao/">Wenlei Bao</a>, <a href="https://sizezheng.github.io/">Size Zheng</a>, <a href="https://zheng-ningxin.github.io/">Ningxin Zheng</a>, <a href="https://scholar.google.com/citations?user=ZMfk2F8AAAAJ&hl=zh-CN">Xin Liu</a>, <a href="https://www.andrew.cmu.edu/user/harryd/">Harry Dong</a>, <a href="https://users.ece.cmu.edu/~yuejiec/index.html">Yuejie Chi</a>, and <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a>
+                    <br><br>
+                    <p><i>ArXiv</i>, 2024</p><br>
+                    <p>
+                        <!-- <a href="https://arxiv.org/pdf/2306.11876.pdf" target="blank">arXiv</a> / <a href="https://infini-ai-lab.github.io/TriForce/" target="blank">website</a> / <a href="https://github.com/bytedance/shadowkv" target="blank">code <img src="https://img.shields.io/github/stars/bytedance/shadowkv?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="bibtex/bao2024bmad.txt", target="blank">bibtex</a> -->
+                        To appear
+                    </p>
+                    <br>
+                    <p>High-Throughput Long-Context LLM Inference System</p>
+                </td>
+            </tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+        </table>
+        
+        <table>
+            <tr>
+                <td style="padding:10px;width:25%;vertical-align:middle">
+                    <img src="assets/img/specrej.png" width="400px">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://preminstrel.com" target="blank"><b>Fast Best-of-N Decoding via Speculative Rejection
+                    </b></a><br>
+                    <br>
+                    <strong>Hanshi Sun*</strong>, Momin Haider*, <a href="https://rqzhangberkeley.github.io/">Ruiqi Zhang*</a>, Huitao Yang, <a href="https://mingyin0312.github.io/">Ming Yin</a>, <a href="https://mwang.princeton.edu/">Mengdi Wang</a>, <a href="https://people.eecs.berkeley.edu/~bartlett/">Peter Bartlett</a>, and <a href="https://azanette.com/">Andrea Zanette*</a> (* for core authors)
+                    <br><br>
+                    <p><i>Conference on Neural Information Processing Systems (NeurIPS)</i>, 2024</p><br>
+                    <p>
+                        <!-- <a href="https://arxiv.org/pdf/2306.11876.pdf" target="blank">arXiv</a> / <a href="https://infini-ai-lab.github.io/TriForce/" target="blank">website</a> / <a href="https://github.com/XX/XX" target="blank">code <img src="https://img.shields.io/github/stars/XX/XX?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="bibtex/bao2024bmad.txt", target="blank">bibtex</a> -->
+                        To appear
+                    </p>
+                    <br>
+                    <p>Fast Inference-time Aligment Algorithm</p>
+                </td>
+            </tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+        </table>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tr onmouseout="triforce_stop()" onmouseover="triforce_start()" bgcolor="#ffffd0">
                 <td style="padding:10px;width:25%;vertical-align:middle">
@@ -163,7 +217,7 @@
                     <a href="https://infini-ai-lab.github.io/TriForce/" target="blank"><b><span class="TriForceFont" style="display: inline; font-size: 15pt;">*</span>TriForce: Lossless Acceleration of Long Sequence Generation with Hierarchical Speculative Decoding</b></a>
                     <br>
                     <br>
-                    <strong>Hanshi Sun</strong>, <a href="https://dreaming-panda.github.io/">Zhuoming Chen</a>, <a href="https://xinyuyang.me/">Xinyu Yang</a>, <a href="https://yuandong-tian.com/">Yuandong Tian</a>, and <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a><br>
+                    <strong>Hanshi Sun</strong>, <a href="https://dreaming-panda.github.io/">Zhuoming Chen</a>, <a href="https://xinyuyang.me/">Xinyu Yang</a>, <a href="https://yuandong-tian.com/">Yuandong Tian</a>, and <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a><br><br>
                     <p><i>Conference on Language Modeling (COLM)</i>, 2024</p><br>
                     <p>
                         <a href="https://arxiv.org/abs/2404.11912.pdf" target="blank">arXiv</a> / <a href="https://infini-ai-lab.github.io/TriForce/" target="blank">website</a> / <a href="https://github.com/infini-ai-lab/TriForce/" target="blank">code <img src="https://img.shields.io/github/stars/infini-ai-lab/TriForce?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="https://youtu.be/vRAaAyjr6Jo" target="blank">demo</a> / <a href="bibtex/sun2024triforce.txt", target="blank">bibtex</a>
@@ -186,7 +240,7 @@
                     </b> <br>
                     <br>
                     Jinan Bao, <strong>Hanshi Sun</strong>, Hanqiu Deng, Zhaoxiang Zhang, and <a href="https://www.ece.ualberta.ca/~xingyu/index.html">Xingyu Li</a>
-                    <br>
+                    <br><br>
                     <p><i>Computer Vision and Pattern Recognition (CVPR) Workshop</i>, 2024</p><br>
                     <p>
                         <a href="https://arxiv.org/pdf/2306.11876.pdf" target="blank">arXiv</a> / <a href="https://github.com/DorisBao/BMAD" target="blank">code <img src="https://img.shields.io/github/stars/DorisBao/BMAD?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="bibtex/bao2024bmad.txt", target="blank">bibtex</a>
@@ -201,6 +255,55 @@
         </table>
     </div>
     <div id="full_publications" style="display: none;">
+        <table style="background-color: #ffffd0;">
+            <tr>
+                <td style="padding:10px;width:25%;vertical-align:middle">
+                    <img src="assets/img/shadowkv_sys.png" width="400px">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://preminstrel.com" target="blank"><b><img src="assets/img/ShadowKV.png" width="24px"> ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference</a>
+                    </b> <br>
+                    <br>
+                    <strong>Hanshi Sun</strong>, <a href="https://lchang20.github.io/">Li-Wen Chang</a>, <a href="https://sites.google.com/view/wenleibao/">Wenlei Bao</a>, <a href="https://sizezheng.github.io/">Size Zheng</a>, <a href="https://zheng-ningxin.github.io/">Ningxin Zheng</a>, <a href="https://scholar.google.com/citations?user=ZMfk2F8AAAAJ&hl=zh-CN">Xin Liu</a>, <a href="https://www.andrew.cmu.edu/user/harryd/">Harry Dong</a>, <a href="https://users.ece.cmu.edu/~yuejiec/index.html">Yuejie Chi</a>, and <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a>
+                    <br><br>
+                    <p><i>ArXiv</i>, 2024</p><br>
+                    <p>
+                        <!-- <a href="https://arxiv.org/pdf/2306.11876.pdf" target="blank">arXiv</a> / <a href="https://infini-ai-lab.github.io/TriForce/" target="blank">website</a> / <a href="https://github.com/bytedance/shadowkv" target="blank">code <img src="https://img.shields.io/github/stars/bytedance/shadowkv?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="bibtex/bao2024bmad.txt", target="blank">bibtex</a> -->
+                        To appear
+                    </p>
+                    <br>
+                    <p>High-Throughput Long-Context LLM Inference System</p>
+                </td>
+            </tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+        </table>
+        
+        <table>
+            <tr>
+                <td style="padding:10px;width:25%;vertical-align:middle">
+                    <img src="assets/img/specrej.png" width="400px">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://preminstrel.com" target="blank"><b>Fast Best-of-N Decoding via Speculative Rejection
+                    </b></a><br>
+                    <br>
+                    <strong>Hanshi Sun*</strong>, Momin Haider*, <a href="https://rqzhangberkeley.github.io/">Ruiqi Zhang*</a>, Huitao Yang, <a href="https://mingyin0312.github.io/">Ming Yin</a>, <a href="https://mwang.princeton.edu/">Mengdi Wang</a>, <a href="https://people.eecs.berkeley.edu/~bartlett/">Peter Bartlett</a>, and <a href="https://azanette.com/">Andrea Zanette*</a> (* for core authors)
+                    <br><br>
+                    <p><i>Conference on Neural Information Processing Systems (NeurIPS)</i>, 2024</p><br>
+                    <p>
+                        <!-- <a href="https://arxiv.org/pdf/2306.11876.pdf" target="blank">arXiv</a> / <a href="https://infini-ai-lab.github.io/TriForce/" target="blank">website</a> / <a href="https://github.com/XX/XX" target="blank">code <img src="https://img.shields.io/github/stars/XX/XX?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="bibtex/bao2024bmad.txt", target="blank">bibtex</a> -->
+                        To appear
+                    </p>
+                    <br>
+                    <p>Fast Inference-time Aligment Algorithm</p>
+                </td>
+            </tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+        </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tr onmouseout="triforce_stop()" onmouseover="triforce_start()" bgcolor="#ffffd0">
                 <td style="padding:10px;width:25%;vertical-align:middle">
@@ -230,7 +333,7 @@
                     <a href="https://infini-ai-lab.github.io/TriForce/" target="blank"><b><span class="TriForceFont" style="display: inline; font-size: 15pt;">*</span>TriForce: Lossless Acceleration of Long Sequence Generation with Hierarchical Speculative Decoding</b></a>
                     <br>
                     <br>
-                    <strong>Hanshi Sun</strong>, <a href="https://dreaming-panda.github.io/">Zhuoming Chen</a>, <a href="https://xinyuyang.me/">Xinyu Yang</a>, <a href="https://yuandong-tian.com/">Yuandong Tian</a>, and <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a><br>
+                    <strong>Hanshi Sun</strong>, <a href="https://dreaming-panda.github.io/">Zhuoming Chen</a>, <a href="https://xinyuyang.me/">Xinyu Yang</a>, <a href="https://yuandong-tian.com/">Yuandong Tian</a>, and <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a><br><br>
                     <p><i>Conference on Language Modeling (COLM)</i>, 2024</p><br>
                     <p>
                         <a href="https://arxiv.org/abs/2404.11912.pdf" target="blank">arXiv</a> / <a href="https://infini-ai-lab.github.io/TriForce/" target="blank">website</a> / <a href="https://github.com/infini-ai-lab/TriForce/" target="blank">code <img src="https://img.shields.io/github/stars/infini-ai-lab/TriForce?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="https://youtu.be/vRAaAyjr6Jo" target="blank">demo</a> / <a href="bibtex/sun2024triforce.txt", target="blank">bibtex</a>
@@ -253,7 +356,7 @@
                     </b> <br>
                     <br>
                     Jinan Bao, <strong>Hanshi Sun</strong>, Hanqiu Deng, Zhaoxiang Zhang, and <a href="https://www.ece.ualberta.ca/~xingyu/index.html">Xingyu Li</a>
-                    <br>
+                    <br><br>
                     <p><i>Computer Vision and Pattern Recognition (CVPR) Workshop</i>, 2024</p><br>
                     <p>
                         <a href="https://arxiv.org/pdf/2306.11876.pdf" target="blank">arXiv</a> / <a href="https://github.com/DorisBao/BMAD" target="blank">code <img src="https://img.shields.io/github/stars/DorisBao/BMAD?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="bibtex/bao2024bmad.txt", target="blank">bibtex</a>
@@ -274,7 +377,7 @@
                 <td style="padding:20px;width:75%;vertical-align:middle">
                     <b>Combating Medical Noisy Labels by Disentangled Distribution Learning and Consistency Regularization
                     </b> <br> <br>
-                    <a href="https://scholar.google.co.uk/citations?user=EnDCJKMAAAAJ&hl=en">Yi Zhou</a>, <a href="https://huangleibuaa.github.io">Lei Huang</a>, <a href="https://taozh2017.github.io">Tao Zhou</a> and <strong>Hanshi Sun</strong><br>
+                    <a href="https://scholar.google.co.uk/citations?user=EnDCJKMAAAAJ&hl=en">Yi Zhou</a>, <a href="https://huangleibuaa.github.io">Lei Huang</a>, <a href="https://taozh2017.github.io">Tao Zhou</a> and <strong>Hanshi Sun</strong><br><br>
                     <i>Future Generation Computer Systems (FGCS)</i>, 2023<br><br>
                     <p>
                         <a href="https://www.sciencedirect.com/science/article/pii/S0167739X22004228" target="blank">paper</a> / <a href="bibtex/zhou2023combating.txt", target="blank">bibtex</a>
@@ -297,7 +400,7 @@
                         Quantization
                     </b>
                     <br>
-                    <strong>Hanshi Sun</strong>, Ao Wang, Ninghao Pu, Zhiqing Li, Junguang Huang, <a href="https://electronic.seu.edu.cn/lh/list.htm">Hao Liu</a> and Zhi Qi <br>
+                    <strong>Hanshi Sun</strong>, Ao Wang, Ninghao Pu, Zhiqing Li, Junguang Huang, <a href="https://electronic.seu.edu.cn/lh/list.htm">Hao Liu</a> and Zhi Qi <br><br>
                     <i>ICAICE</i>, 2021<br><br>
                     <p>
                         <a href="https://preminstrel.github.io/ECG-Classification/" target="blank">website</a> / 
@@ -448,7 +551,8 @@
                     <p><strong>ByteDance Inc., Seattle, United States (Jun 2024 - Present)</strong></p>
                     <i>Machine Learning System Research Intern in Seed-Foundation Team</i>
                     <ul>
-                        <li>Placeholder</li>
+                        <li>Introduced ShadowKV, a high-throughput long-context LLM inference system</li>
+                        <li>ShadowKV can support 6x larger batch sizes and boost throughput by 3.04x while maintaining accuracy on downstream tasks</li>
                     </ul>
                     </li>
                 </td>
@@ -474,24 +578,6 @@
             <tr></tr>
         </tbody>
     </table>
-    <!-- <h2>Miscellaneous</h2>
-    <h4>Videos:</h4>
-    <iframe width="500" height="300" src="https://www.youtube.com/embed/JYPw38QwzDM"></iframe>   
-    <p>
-    <details>
-        <summary>Friends (click to expand, random order)</summary>
-        <ul>
-            <li>HKU: <a href=" http://yazhou-z.github.io">Yazhou Zhao</a></li>
-            <li>SJTU: <a href=" http://yanjieze.com">Yanjie Ze</a></li>
-            <li>JHU: <a href="https://horaceyi.github.io/">Hongrui Yi</a></li>
-            <li>Columbia University: <a href="https://eshoyuan.github.io">Yixiao Yuan</a></li>
-            <li>UW: <a href="https://huapengzhou.life">Huapeng Zhou</a></li>
-            <li>BU: <a href="https://ming-cong-tang.com/">Mingcong Tang</a></li>
-            <li>HHU: <a href="https://carelessty.github.io">Tingyu Chen</a></li>
-            <li>CUC: <a href="https://primopan.github.io">Primo Pan</a></li>
-        </ul>
-    </details>
-    </p> -->
     <div clss="footer">
         <p>
             <center>
