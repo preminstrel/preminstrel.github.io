@@ -1,0 +1,6 @@
+@article{sun2024fast,
+  title={Fast Best-of-N Decoding via Speculative Rejection},
+  author={Sun, Hanshi and Haider, Momin and Zhang, Ruiqi and Yang, Huitao and Qiu, Jiahao and Yin, Ming and Wang, Mengdi and Bartlett, Peter and Zanette, Andrea},
+  journal={arXiv preprint arXiv:2410.20290},
+  year={2024}
+}
