@@ -1,0 +1,6 @@
+@article{sun2024shadowkv,
+  title={ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference},
+  author={Sun, Hanshi and Chang, Li-Wen and Bao, Wenlei and Zheng, Size and Zheng, Ningxin and Liu, Xin and Dong, Harry and Chi, Yuejie and Chen, Beidi},
+  journal={arXiv preprint arXiv:2410.21465},
+  year={2024}
+}
