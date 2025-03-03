@@ -1,0 +1,20 @@
+@article{sun2024triforce,
+  title={Triforce: Lossless acceleration of long sequence generation with hierarchical speculative decoding},
+  author={Sun, Hanshi and Chen, Zhuoming and Yang, Xinyu and Tian, Yuandong and Chen, Beidi},
+  journal={arXiv preprint arXiv:2404.11912},
+  year={2024}
+}
+
+@article{sun2024shadowkv,
+  title={ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference},
+  author={Sun, Hanshi and Chang, Li-Wen and Bao, Wenlei and Zheng, Size and Zheng, Ningxin and Liu, Xin and Dong, Harry and Chi, Yuejie and Chen, Beidi},
+  journal={arXiv preprint arXiv:2410.21465},
+  year={2024}
+}
+
+@article{sun2024fast,
+  title={Fast Best-of-N Decoding via Speculative Rejection},
+  author={Sun, Hanshi and Haider, Momin and Zhang, Ruiqi and Yang, Huitao and Qiu, Jiahao and Yin, Ming and Wang, Mengdi and Bartlett, Peter and Zanette, Andrea},
+  journal={arXiv preprint arXiv:2410.20290},
+  year={2024}
+}

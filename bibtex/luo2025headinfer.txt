@@ -1,0 +1,6 @@
+@article{luo2025headinfer,
+  title={HeadInfer: Memory-Efficient LLM Inference by Head-wise Offloading},
+  author={Luo, Cheng and Cai, Zefan and Sun, Hanshi and Xiao, Jinqi and Yuan, Bo and Xiao, Wen and Hu, Junjie and Zhao, Jiawei and Chen, Beidi and Anandkumar, Anima},
+  journal={arXiv preprint arXiv:2502.12574},
+  year={2025}
+}
