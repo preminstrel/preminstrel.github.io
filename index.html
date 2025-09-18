@@ -94,6 +94,10 @@
     <ul>
         <div style="height:170px;width:fit-content;overflow:auto;background:#FFFFFF;">
             <li>
+                <p><span style="color:#3C8CFF"><b>[2025/09/18]</b></span> Our <a href="https://github.com/Zefan-Cai/R-KV" target="blank">R-KV</a> has been accepted by <a href="https://neurips.cc/" target="blank"><img src="assets/img/NeurIPS.png", style="height: 1em; width: auto; margin-left: 0.2em; position: relative; top: 0.1em;"> NeurIPS 2025</a>! See you in San Diego!
+                </p>
+            </li>
+            <li>
                 <p><span style="color:#3C8CFF"><b>[2025/05/01]</b></span> Our <a href="https://github.com/ByteDance-Seed/ShadowKV" target="blank">ShadowKV</a> has been accepted by <a href="https://icml.cc/" target="blank"><img src="assets/img/icml_logo.jpg", style="height: 1em; width: auto; margin-left: 0.2em; position: relative; top: 0.1em;"> ICML 2025</a> as <span style="color:red">Spotlight</span>! See you in Vancouver!
                 </p>
             </li>
@@ -103,7 +107,7 @@
                 </p>
             </li>
             <li>
-                <p><span style="color:#e06b87"><b>[2024/10/01]</b></span> Our <a href="https://Zanette-Labs.github.io/SpeculativeRejection" target="blank">Speculative Rejection</a> has been accepted by <a href="https://nips.cc/" target="blank"><img src="assets/img/NeurIPS.png", style="height: 1em; width: auto; margin-left: 0.2em; position: relative; top: 0.1em;"> NeurIPS 2024</a>! See you in Vancouver!
+                <p><span style="color:#e06b87"><b>[2024/10/01]</b></span> Our <a href="https://Zanette-Labs.github.io/SpeculativeRejection" target="blank">Speculative Rejection</a> has been accepted by <a href="https://neurips.cc/" target="blank"><img src="assets/img/NeurIPS.png", style="height: 1em; width: auto; margin-left: 0.2em; position: relative; top: 0.1em;"> NeurIPS 2024</a>! See you in Vancouver!
                 </p>
             </li>
             <li>
@@ -164,11 +168,35 @@
         }
     </style>
     <p>
-        <button class="button selected-button" id="button1" onclick="showSelectedPublications(); selectButton('button1')">Representative Papers</button> / 
+        <button class="button selected-button" id="button1" onclick="showSelectedPublications(); selectButton('button1')">MLSys Papers by time</button> / 
         <button class="button" id="button2" onclick="showFullPublications(); selectButton('button2')">Full Papers by Year</button>.
         Selected papers are <span style="background-color: #ffffd0;">highlighted</span>.
     </p>
     <div id="selected_publications">
+        <table>
+            <tr>
+                <td style="padding:10px;width:25%;vertical-align:middle">
+                    <img src="assets/img/rkv.png" width="400px" height="210px">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://arxiv.org/pdf/2502.12574.pdf" target="blank"><b>R-KV: Redundancy-aware KV Cache Compression for Reasoning Models
+                    </a>
+                    </b> <br>
+                    <br>
+                    Zefan Cai, Wen Xiao, <strong>Hanshi Sun</strong>, Cheng Luo, Yikai Zhang, Ke Wan, Yucheng Li, Yeyang Zhou, Li-Wen Chang, Jiuxiang Gu, Zhen Dong, Anima Anandkumar, Abedelkadir Asi, Junjie Hu
+                    <br><br>
+                    <p><i>Conference on Neural Information Processing Systems (NeurIPS)</i>, 2025</p><br>
+                    <p>
+                        <a href="https://arxiv.org/pdf/2505.24133" target="blank">arXiv</a> / <a href="https://zefan-cai.github.io/R-KV.page/" target="blank">website</a> / <a href="https://github.com/Zefan-Cai/R-KV" target="blank">code <img src="https://img.shields.io/github/stars/Zefan-Cai/R-KV?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="bibtex/cai2025r", target="blank">bibtex</a>
+                    </p>
+                    <br>
+                    <p>Shrink the cache, keep the brains.</p>
+                </td>
+            </tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+        </table>
         <table>
             <tr>
                 <td style="padding:10px;width:25%;vertical-align:middle">
@@ -181,7 +209,7 @@
                     <br>
                     <a href="https://wdlctc.github.io/">Cheng Luo</a>, <a href="https://scholar.google.com/citations?user=eyIrttAAAAAJ&hl=en">Zefan Cai</a>, <strong>Hanshi Sun</strong>, <a href="https://scholar.google.com/citations?user=ITSm2LYAAAAJ&hl=en">Jinqi Xiao</a>, <a href="https://sites.google.com/site/boyuaneecs/home">Bao Yuan</a>, Wen Xiao, <a href="https://junjiehu.github.io/">Junjie Hu</a>, <a href="https://jiawei-zhao.netlify.app/">Jiawei Zhao</a>, <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a>, and  <a href="http://tensorlab.cms.caltech.edu/users/anima/">Anima Anandkumar</a>
                     <br><br>
-                    <p><i>ArXiv</i>, 2025</p><br>
+                    <p><i>ICML 2025 Workshop on Long-Context Foundation Models</i>, 2025</p><br>
                     <p>
                         <a href="https://arxiv.org/pdf/2502.12574.pdf" target="blank">arXiv</a> / <a href="bibtex/luo2025headinfer.txt", target="blank">bibtex</a>
                     </p>
@@ -199,14 +227,14 @@
                     <img src="assets/img/shadowkv_sys.png" width="400px">
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://github.com/bytedance/ShadowKV" target="blank"><b><img src="assets/img/ShadowKV.png" width="24px"> ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference</a>
+                    <a href="https://github.com/ByteDance-Seed/ShadowKV" target="blank"><b><img src="assets/img/ShadowKV.png" width="24px"> ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference</a>
                     </b> <br>
                     <br>
                     <strong>Hanshi Sun</strong>, <a href="https://lchang20.github.io/">Li-Wen Chang</a>, <a href="https://sites.google.com/view/wenleibao/">Wenlei Bao</a>, <a href="https://sizezheng.github.io/">Size Zheng</a>, <a href="https://zheng-ningxin.github.io/">Ningxin Zheng</a>, <a href="https://scholar.google.com/citations?user=ZMfk2F8AAAAJ&hl=zh-CN">Xin Liu</a>, <a href="https://www.andrew.cmu.edu/user/harryd/">Harry Dong</a>, <a href="https://users.ece.cmu.edu/~yuejiec/index.html">Yuejie Chi</a>, and <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a>
                     <br><br>
                     <p><i>International Conference on Machine Learning (ICML) <span style="color:red">Spotlight</span></i>, 2025</p><br>
                     <p>
-                        <a href="https://arxiv.org/pdf/2410.21465.pdf" target="blank">arXiv</a> / <a href="https://bytedance.github.io/ShadowKV/" target="blank">website</a> / <a href="https://github.com/bytedance/ShadowKV" target="blank">code <img src="https://img.shields.io/github/stars/bytedance/ShadowKV?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="bibtex/sun2024shadowkv.txt", target="blank">bibtex</a>
+                        <a href="https://arxiv.org/pdf/2410.21465.pdf" target="blank">arXiv</a> / <a href="https://bytedance.github.io/ShadowKV/" target="blank">website</a> / <a href="https://github.com/ByteDance-Seed/ShadowKV" target="blank">code <img src="https://img.shields.io/github/stars/ByteDance-Seed/ShadowKV?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="bibtex/sun2024shadowkv.txt", target="blank">bibtex</a>
                     </p>
                     <br>
                     <p>High-Throughput Long-Context LLM Inference System</p>
@@ -288,6 +316,30 @@
         <table>
             <tr>
                 <td style="padding:10px;width:25%;vertical-align:middle">
+                    <img src="assets/img/rkv.png" width="400px" height="210px">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://arxiv.org/pdf/2502.12574.pdf" target="blank"><b>R-KV: Redundancy-aware KV Cache Compression for Reasoning Models
+                    </a>
+                    </b> <br>
+                    <br>
+                    Zefan Cai, Wen Xiao, <strong>Hanshi Sun</strong>, Cheng Luo, Yikai Zhang, Ke Wan, Yucheng Li, Yeyang Zhou, Li-Wen Chang, Jiuxiang Gu, Zhen Dong, Anima Anandkumar, Abedelkadir Asi, Junjie Hu
+                    <br><br>
+                    <p><i>Conference on Neural Information Processing Systems (NeurIPS)</i>, 2025</p><br>
+                    <p>
+                        <a href="https://arxiv.org/pdf/2505.24133" target="blank">arXiv</a> / <a href="https://zefan-cai.github.io/R-KV.page/" target="blank">website</a> / <a href="https://github.com/Zefan-Cai/R-KV" target="blank">code <img src="https://img.shields.io/github/stars/Zefan-Cai/R-KV?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="bibtex/cai2025r", target="blank">bibtex</a>
+                    </p>
+                    <br>
+                    <p>Shrink the cache, keep the brains.</p>
+                </td>
+            </tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+        </table>
+        <table>
+            <tr>
+                <td style="padding:10px;width:25%;vertical-align:middle">
                     <img src="assets/img/headinfer2.png" width="400px" height="210px">
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
@@ -297,7 +349,7 @@
                     <br>
                     <a href="https://wdlctc.github.io/">Cheng Luo</a>, <a href="https://scholar.google.com/citations?user=eyIrttAAAAAJ&hl=en">Zefan Cai</a>, <strong>Hanshi Sun</strong>, <a href="https://scholar.google.com/citations?user=ITSm2LYAAAAJ&hl=en">Jinqi Xiao</a>, <a href="https://sites.google.com/site/boyuaneecs/home">Bao Yuan</a>, Wen Xiao, <a href="https://junjiehu.github.io/">Junjie Hu</a>, <a href="https://jiawei-zhao.netlify.app/">Jiawei Zhao</a>, <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a>, and  <a href="http://tensorlab.cms.caltech.edu/users/anima/">Anima Anandkumar</a>
                     <br><br>
-                    <p><i>ArXiv</i>, 2025</p><br>
+                    <p><i>ICML 2025 Workshop on Long-Context Foundation Models</i>, 2025</p><br>
                     <p>
                         <a href="https://arxiv.org/pdf/2502.12574.pdf" target="blank">arXiv</a> / <a href="bibtex/luo2025headinfer.txt", target="blank">bibtex</a>
                     </p>
@@ -503,7 +555,7 @@
     <h2>Services</h2>
     <ul>
         <li>
-            Reviewer: NeurIPS 2025, ICML 2025, ICLR 2025, COLM 2025, MLSys 2025, ACL ARR 2025
+            Reviewer: NeurIPS 2025, ICML 2025, ICLR 2025, COLM 2025, MLSys 2025, ACL ARR 2025, AAAI 2025
         </li>
         <li>
             Teaching Assistant: Introduction to Deep Learning (CMU), Introduction to Machine Learning (CMU)
