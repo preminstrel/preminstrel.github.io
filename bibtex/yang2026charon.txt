@@ -1,0 +1,6 @@
+@inproceedings{yang2026charon,
+  title={Charon: A Unified and Fine-Grained Simulator for Large-Scale LLM Training and Inference},
+  author={Yang, Mengtian and Zhang, Zhekun and Wu, Mingheng and Yan, Jianwen and Sun, Hanshi and Chang, Li-Wen},
+  booktitle={Proceedings of the 9th MLSys Conference},
+  year={2026}
+}

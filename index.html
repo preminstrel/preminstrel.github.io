@@ -94,6 +94,14 @@
     <ul>
         <div style="height:170px;width:fit-content;overflow:auto;background:#FFFFFF;">
             <li>
+                <p><span style="color:#e06b87"><b>[2026/04/30]</b></span> Our <a href="https://github.com/ByteDance-Seed/Triton-distributed" target="blank">Ditron</a> has been accepted by <a href="https://icml.cc/" target="blank"><img src="assets/img/icml_logo.jpg", style="height: 1em; width: auto; margin-left: 0.2em; position: relative; top: 0.1em;"> ICML 2026</a>! See you in Seoul!
+                </p>
+            </li>
+            <li>
+                <p><span style="color:#e06b87"><b>[2026/04/20]</b></span> Our <b>Charon</b> has been accepted by <a href="https://mlsys.org/" target="blank">MLSys 2026</a>! See you in Bellevue!
+                </p>
+            </li>
+            <li>
                 <p><span style="color:#3C8CFF"><b>[2025/09/18]</b></span> Our <a href="https://github.com/Zefan-Cai/R-KV" target="blank">R-KV</a> has been accepted by <a href="https://neurips.cc/" target="blank"><img src="assets/img/NeurIPS.png", style="height: 1em; width: auto; margin-left: 0.2em; position: relative; top: 0.1em;"> NeurIPS 2025</a>! See you in San Diego!
                 </p>
             </li>
@@ -107,15 +115,15 @@
                 </p>
             </li>
             <li>
-                <p><span style="color:#e06b87"><b>[2024/10/01]</b></span> Our <a href="https://Zanette-Labs.github.io/SpeculativeRejection" target="blank">Speculative Rejection</a> has been accepted by <a href="https://neurips.cc/" target="blank"><img src="assets/img/NeurIPS.png", style="height: 1em; width: auto; margin-left: 0.2em; position: relative; top: 0.1em;"> NeurIPS 2024</a>! See you in Vancouver!
+                <p><span style="color:#d97706"><b>[2024/10/01]</b></span> Our <a href="https://Zanette-Labs.github.io/SpeculativeRejection" target="blank">Speculative Rejection</a> has been accepted by <a href="https://neurips.cc/" target="blank"><img src="assets/img/NeurIPS.png", style="height: 1em; width: auto; margin-left: 0.2em; position: relative; top: 0.1em;"> NeurIPS 2024</a>! See you in Vancouver!
                 </p>
             </li>
             <li>
-                <p><span style="color:#e06b87"><b>[2024/07/09]</b></span> Our <a href="https://infini-ai-lab.github.io/TriForce/" target="blank">TriForce</a> has been accepted by <a href="https://colmweb.org/" target="blank">🦙 COLM 2024</a>! See you in Philadelphia!
+                <p><span style="color:#d97706"><b>[2024/07/09]</b></span> Our <a href="https://infini-ai-lab.github.io/TriForce/" target="blank">TriForce</a> has been accepted by <a href="https://colmweb.org/" target="blank">🦙 COLM 2024</a>! See you in Philadelphia!
                 </p>
             </li>
             <li>
-                <p><span style="color:#e06b87"><b>[2024/06/03]</b></span> Work as a MLSys Research Intern in Seed-Foundation team at <a href="https://www.bytedance.com/en/" target="blank"><img src="assets/img/ByteDance.png" style="height: 1em; width: auto; margin-left: 0.2em; position: relative; top: 0.1em;"> ByteDance</a>.
+                <p><span style="color:#d97706"><b>[2024/06/03]</b></span> Work as a MLSys Research Intern in Seed-Foundation team at <a href="https://www.bytedance.com/en/" target="blank"><img src="assets/img/ByteDance.png" style="height: 1em; width: auto; margin-left: 0.2em; position: relative; top: 0.1em;"> ByteDance</a>.
                 </p>
             </li>
             <li>
@@ -168,12 +176,58 @@
         }
     </style>
     <p>
-        <button class="button selected-button" id="button1" onclick="showSelectedPublications(); selectButton('button1')">MLSys Papers by time</button> / 
-        <button class="button" id="button2" onclick="showFullPublications(); selectButton('button2')">Full Papers by Year</button>.
-        Selected papers are <span style="background-color: #ffffd0;">highlighted</span>.
+        <button class="button selected-button" id="button1" onclick="showSelectedPublications(); selectButton('button1')">Selected</button> /
+        <button class="button" id="button2" onclick="showFullPublications(); selectButton('button2')">All Papers</button>.
+        <span style="background-color: #ffffd0;">Representative</span> papers are highlighted.
     </p>
-    <div id="selected_publications">
-        <table>
+    <div id="publications">
+        <table style="background-color: #ffffd0;" data-selected="true">
+            <tr>
+                <td style="padding:10px;width:25%;vertical-align:middle">
+                    <img src="assets/img/ditron.png" width="400px">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://github.com/ByteDance-Seed/Triton-distributed" target="blank"><b>Ditron: Distributed Multi-level Tiling Compiler for Parallel Tensor Programs</b></a>
+                    <br>
+                    <br>
+                    <a href="https://sizezheng.github.io/">Size Zheng</a>, Xuegui Zheng, <strong>Hanshi Sun</strong>, Qi Hou, <a href="https://sites.google.com/view/wenleibao/">Wenlei Bao</a>, Shiyu Li, Haojie Duanmu, Jin Fang, Chenli Xue, Chenhui Huang, Yuanqiang Liu, Renze Chen, <a href="https://zheng-ningxin.github.io/">Ningxin Zheng</a>, Dongyang Wang, <a href="https://lchang20.github.io/">Li-Wen Chang</a>, Liqiang Lu, Yun Liang, Jidong Zhai, <a href="https://scholar.google.com/citations?user=ZMfk2F8AAAAJ&hl=zh-CN">Xin Liu</a>
+                    <br><br>
+                    <p><i>International Conference on Machine Learning (ICML)</i>, 2026</p><br>
+                    <p>
+                        <a href="https://github.com/ByteDance-Seed/Triton-distributed" target="blank">code <img src="https://img.shields.io/github/stars/ByteDance-Seed/Triton-distributed?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="bibtex/zheng2026ditron.txt", target="blank">bibtex</a>
+                    </p>
+                    <br>
+                    <p>Distributed multi-level tiling compiler for parallel tensor programs.</p>
+                </td>
+            </tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+        </table>
+        <table data-selected="true">
+            <tr>
+                <td style="padding:10px;width:25%;vertical-align:middle">
+                    <img src="assets/img/charon.png" width="400px">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <b>Charon: A Unified and Fine-Grained Simulator for Large-Scale LLM Training and Inference</b>
+                    <br>
+                    <br>
+                    Mengtian Yang, Zhekun Zhang, Mingheng Wu, Jianwen Yan, <strong>Hanshi Sun</strong>, Li-Wen Chang
+                    <br><br>
+                    <p><i>Conference on Machine Learning and Systems (MLSys)</i>, 2026</p><br>
+                    <p>
+                        <a href="bibtex/yang2026charon.txt", target="blank">bibtex</a>
+                    </p>
+                    <br>
+                    <p>Unified, fine-grained simulator for LLM training and inference.</p>
+                </td>
+            </tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+            <tr>&nbsp</tr>
+        </table>
+        <table data-selected="true">
             <tr>
                 <td style="padding:10px;width:25%;vertical-align:middle">
                     <img src="assets/img/rkv.png" width="400px" height="210px">
@@ -221,7 +275,7 @@
             <tr>&nbsp</tr>
             <tr>&nbsp</tr>
         </table>
-        <table style="background-color: #ffffd0;">
+        <table style="background-color: #ffffd0;" data-selected="true">
             <tr>
                 <td style="padding:10px;width:25%;vertical-align:middle">
                     <img src="assets/img/shadowkv_sys.png" width="400px">
@@ -245,7 +299,7 @@
             <tr>&nbsp</tr>
         </table>
         
-        <table>
+        <table data-selected="true">
             <tr>
                 <td style="padding:10px;width:25%;vertical-align:middle">
                     <img src="assets/img/specrej.png" width="400px">
@@ -269,146 +323,7 @@
             <tr>&nbsp</tr>
         </table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tr onmouseout="triforce_stop()" onmouseover="triforce_start()" bgcolor="#ffffd0">
-                <td style="padding:10px;width:25%;vertical-align:middle">
-                    <div>
-                        <div style="opacity: 0; position: absolute; transition: opacity .2s ease-in-out; -moz-transition: opacity .2 ease-in-out; -webkit-transition: opacity .2 ease-in-out;" id="triforce_image">
-                            <video loop autoplay muted width="400px" >
-                                <source src="assets/video/TriForce.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                        <div>
-                            <img src="assets/img/TriForce.png" alt="TriForce", style="width: 400px; padding-top:40px; padding-bottom: 25px;">
-                        </div>
-                    </div>
-                    <script type="text/javascript">
-                        function triforce_start() {
-                            document.getElementById('triforce_image').style.opacity = "1";
-                        }
-
-                        function triforce_stop() {
-                            document.getElementById('triforce_image').style.opacity = "0";
-                        }
-                        triforce_stop()
-                    </script>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://infini-ai-lab.github.io/TriForce/" target="blank"><b><span class="TriForceFont" style="display: inline; font-size: 15pt;">*</span>TriForce: Lossless Acceleration of Long Sequence Generation with Hierarchical Speculative Decoding</b></a>
-                    <br>
-                    <br>
-                    <strong>Hanshi Sun</strong>, <a href="https://dreaming-panda.github.io/">Zhuoming Chen</a>, <a href="https://xinyuyang.me/">Xinyu Yang</a>, <a href="https://yuandong-tian.com/">Yuandong Tian</a>, and <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a><br><br>
-                    <p><i>Conference on Language Modeling (COLM)</i>, 2024</p><br>
-                    <p>
-                        <a href="https://arxiv.org/abs/2404.11912.pdf" target="blank">arXiv</a> / <a href="https://infini-ai-lab.github.io/TriForce/" target="blank">website</a> / <a href="https://github.com/infini-ai-lab/TriForce/" target="blank">code <img src="https://img.shields.io/github/stars/infini-ai-lab/TriForce?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="https://youtu.be/vRAaAyjr6Jo" target="blank">demo</a> / <a href="bibtex/sun2024triforce.txt", target="blank">bibtex</a>
-                    </p>
-                    <br>
-                    <p>Training-free Lossless Long Sequence Generation Acceleration</p>
-                </td>
-            </tr>
-            <tr>&nbsp</tr>
-            <tr>&nbsp</tr>
-            <tr>&nbsp</tr>
-        </table>
-    </div>
-    <div id="full_publications" style="display: none;">
-        <table>
-            <tr>
-                <td style="padding:10px;width:25%;vertical-align:middle">
-                    <img src="assets/img/rkv.png" width="400px" height="210px">
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://arxiv.org/pdf/2502.12574.pdf" target="blank"><b>R-KV: Redundancy-aware KV Cache Compression for Reasoning Models
-                    </a>
-                    </b> <br>
-                    <br>
-                    Zefan Cai, Wen Xiao, <strong>Hanshi Sun</strong>, Cheng Luo, Yikai Zhang, Ke Wan, Yucheng Li, Yeyang Zhou, Li-Wen Chang, Jiuxiang Gu, Zhen Dong, Anima Anandkumar, Abedelkadir Asi, Junjie Hu
-                    <br><br>
-                    <p><i>Conference on Neural Information Processing Systems (NeurIPS)</i>, 2025</p><br>
-                    <p>
-                        <a href="https://arxiv.org/pdf/2505.24133" target="blank">arXiv</a> / <a href="https://zefan-cai.github.io/R-KV.page/" target="blank">website</a> / <a href="https://github.com/Zefan-Cai/R-KV" target="blank">code <img src="https://img.shields.io/github/stars/Zefan-Cai/R-KV?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="bibtex/cai2025r", target="blank">bibtex</a>
-                    </p>
-                    <br>
-                    <p>Shrink the cache, keep the brains.</p>
-                </td>
-            </tr>
-            <tr>&nbsp</tr>
-            <tr>&nbsp</tr>
-            <tr>&nbsp</tr>
-        </table>
-        <table>
-            <tr>
-                <td style="padding:10px;width:25%;vertical-align:middle">
-                    <img src="assets/img/headinfer2.png" width="400px" height="210px">
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://arxiv.org/pdf/2502.12574.pdf" target="blank"><b>HeadInfer: Memory-Efficient LLM Inference by Head-wise Offloading
-                    </a>
-                    </b> <br>
-                    <br>
-                    <a href="https://wdlctc.github.io/">Cheng Luo</a>, <a href="https://scholar.google.com/citations?user=eyIrttAAAAAJ&hl=en">Zefan Cai</a>, <strong>Hanshi Sun</strong>, <a href="https://scholar.google.com/citations?user=ITSm2LYAAAAJ&hl=en">Jinqi Xiao</a>, <a href="https://sites.google.com/site/boyuaneecs/home">Bao Yuan</a>, Wen Xiao, <a href="https://junjiehu.github.io/">Junjie Hu</a>, <a href="https://jiawei-zhao.netlify.app/">Jiawei Zhao</a>, <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a>, and  <a href="http://tensorlab.cms.caltech.edu/users/anima/">Anima Anandkumar</a>
-                    <br><br>
-                    <p><i>ICML 2025 Workshop on Long-Context Foundation Models</i>, 2025</p><br>
-                    <p>
-                        <a href="https://arxiv.org/pdf/2502.12574.pdf" target="blank">arXiv</a> / <a href="bibtex/luo2025headinfer.txt", target="blank">bibtex</a>
-                    </p>
-                    <br>
-                    <p>Fine-grained, Head-wise Offloading Strategy</p>
-                </td>
-            </tr>
-            <tr>&nbsp</tr>
-            <tr>&nbsp</tr>
-            <tr>&nbsp</tr>
-        </table>
-        <table style="background-color: #ffffd0;">
-            <tr>
-                <td style="padding:10px;width:25%;vertical-align:middle">
-                    <img src="assets/img/shadowkv_sys.png" width="400px">
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://bytedance.github.io/ShadowKV/" target="blank"><b><img src="assets/img/ShadowKV.png" width="24px"> ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference</a>
-                    </b> <br>
-                    <br>
-                    <strong>Hanshi Sun</strong>, <a href="https://lchang20.github.io/">Li-Wen Chang</a>, <a href="https://sites.google.com/view/wenleibao/">Wenlei Bao</a>, <a href="https://sizezheng.github.io/">Size Zheng</a>, <a href="https://zheng-ningxin.github.io/">Ningxin Zheng</a>, <a href="https://scholar.google.com/citations?user=ZMfk2F8AAAAJ&hl=zh-CN">Xin Liu</a>, <a href="https://www.andrew.cmu.edu/user/harryd/">Harry Dong</a>, <a href="https://users.ece.cmu.edu/~yuejiec/index.html">Yuejie Chi</a>, and <a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a>
-                    <br><br>
-                    <p><i>International Conference on Machine Learning (ICML) <span style="color:red">Spotlight</span></i>, 2025</p><br>
-                    <p>
-                        <a href="https://arxiv.org/pdf/2410.21465.pdf" target="blank">arXiv</a> / <a href="https://bytedance.github.io/ShadowKV/" target="blank">website</a> / <a href="https://github.com/bytedance/ShadowKV" target="blank">code <img src="https://img.shields.io/github/stars/bytedance/ShadowKV?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="bibtex/sun2024shadowkv.txt", target="blank">bibtex</a>
-                    </p>
-                    <br>
-                    <p>High-Throughput Long-Context LLM Inference System</p>
-                </td>
-            </tr>
-            <tr>&nbsp</tr>
-            <tr>&nbsp</tr>
-            <tr>&nbsp</tr>
-        </table>
-        
-        <table>
-            <tr>
-                <td style="padding:10px;width:25%;vertical-align:middle">
-                    <img src="assets/img/specrej.png" width="400px">
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://Zanette-Labs.github.io/SpeculativeRejection" target="blank"><b>Fast Best-of-N Decoding via Speculative Rejection
-                    </b></a><br>
-                    <br>
-                    <strong>Hanshi Sun*</strong>, Momin Haider*, <a href="https://rqzhangberkeley.github.io/">Ruiqi Zhang*</a>, Huitao Yang, <a href="https://ece.princeton.edu/people/jiahao-qiu">Jiahao Qiu</a>, <a href="https://mingyin0312.github.io/">Ming Yin</a>, <a href="https://mwang.princeton.edu/">Mengdi Wang</a>, <a href="https://people.eecs.berkeley.edu/~bartlett/">Peter Bartlett</a>, and <a href="https://azanette.com/">Andrea Zanette*</a> (* for core authors)
-                    <br><br>
-                    <p><i>Conference on Neural Information Processing Systems (NeurIPS)</i>, 2024</p><br>
-                    <p>
-                        <a href="https://arxiv.org/pdf/2410.20290.pdf" target="blank">arXiv</a> / <a href="https://Zanette-Labs.github.io/SpeculativeRejection" target="blank">website</a> / <a href="https://github.com/Zanette-Labs/SpeculativeRejection" target="blank">code <img src="https://img.shields.io/github/stars/Zanette-Labs/SpeculativeRejection?style=social&label=Github+Stars" style="vertical-align:middle"></a> / <a href="bibtex/sun2024fast.txt", target="blank">bibtex</a>
-                    </p>
-                    <br>
-                    <p>Fast Inference-time Aligment Algorithm</p>
-                </td>
-            </tr>
-            <tr>&nbsp</tr>
-            <tr>&nbsp</tr>
-            <tr>&nbsp</tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" data-selected="true">
             <tr onmouseout="triforce_stop()" onmouseover="triforce_start()" bgcolor="#ffffd0">
                 <td style="padding:10px;width:25%;vertical-align:middle">
                     <div>
@@ -523,20 +438,23 @@
 
     <script>
         function showFullPublications() {
-            var selectedPublicationsDiv = document.getElementById('selected_publications');
-            selectedPublicationsDiv.style.display = 'none';
-
-            var fullPublicationsDiv = document.getElementById('full_publications');
-            fullPublicationsDiv.style.display = 'block';
+            document.querySelectorAll('#publications > table').forEach(function (t) {
+                t.style.display = '';
+            });
         }
 
         function showSelectedPublications() {
-            var fullPublicationsDiv = document.getElementById('full_publications');
-            fullPublicationsDiv.style.display = 'none';
-
-            var selectedPublicationsDiv = document.getElementById('selected_publications');
-            selectedPublicationsDiv.style.display = 'block';
+            document.querySelectorAll('#publications > table').forEach(function (t) {
+                t.style.display = t.dataset.selected ? '' : 'none';
+            });
         }
+        document.addEventListener('DOMContentLoaded', function () {
+            var all = document.querySelectorAll('#publications > table').length;
+            var selected = document.querySelectorAll('#publications > table[data-selected]').length;
+            document.getElementById('button1').textContent = 'Selected (' + selected + ')';
+            document.getElementById('button2').textContent = 'All Papers (' + all + ')';
+            showSelectedPublications();
+        });
 
         function selectButton(buttonId) {
             var button1 = document.getElementById('button1');
@@ -555,7 +473,7 @@
     <h2>Services</h2>
     <ul>
         <li>
-            Reviewer: NeurIPS 2025, ICML 2025, ICLR 2025, COLM 2025, MLSys 2025, ACL ARR 2025, AAAI 2025
+            Reviewer: ICLR 2025/2026, ICML 2025/2026, MLSys 2025/2026, COLM 2025/2026, NeurIPS 2025, ACL ARR 2025, AAAI 2025
         </li>
         <li>
             Teaching Assistant: Introduction to Deep Learning (CMU), Introduction to Machine Learning (CMU)

@@ -1,3 +1,17 @@
+@inproceedings{zheng2026ditron,
+  title={Ditron: Distributed Multi-level Tiling Compiler for Parallel Tensor Programs},
+  author={Zheng, Size and Zheng, Xuegui and Sun, Hanshi and Hou, Qi and Bao, Wenlei and Li, Shiyu and Duanmu, Haojie and Fang, Jin and Xue, Chenli and Huang, Chenhui and Liu, Yuanqiang and Chen, Renze and Zheng, Ningxin and Wang, Dongyang and Chang, Li-Wen and Lu, Liqiang and Liang, Yun and Zhai, Jidong and Liu, Xin},
+  booktitle={Proceedings of the 43rd International Conference on Machine Learning (ICML)},
+  year={2026}
+}
+
+@inproceedings{yang2026charon,
+  title={Charon: A Unified and Fine-Grained Simulator for Large-Scale LLM Training and Inference},
+  author={Yang, Mengtian and Zhang, Zhekun and Wu, Mingheng and Yan, Jianwen and Sun, Hanshi and Chang, Li-Wen},
+  booktitle={Proceedings of the 9th MLSys Conference},
+  year={2026}
+}
+
 @article{sun2024triforce,
   title={Triforce: Lossless acceleration of long sequence generation with hierarchical speculative decoding},
   author={Sun, Hanshi and Chen, Zhuoming and Yang, Xinyu and Tian, Yuandong and Chen, Beidi},
