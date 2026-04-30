@@ -386,7 +386,7 @@ html {
   }
   .bio-row {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       gap: 1.5em;
       margin-bottom: 0.5em;
   }
@@ -395,6 +395,7 @@ html {
       text-align: center;
       font-size: 0.85em;
       color: #666;
+      width: 280px;
   }
   .bio-photo-stack {
       position: relative;
@@ -410,7 +411,7 @@ html {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      object-position: center 85%;
+      object-position: center;
   }
   .bio-photo-stack img:not(:first-child) {
       position: absolute;
@@ -430,6 +431,11 @@ html {
       font-style: italic;
       color: #888;
       transition: opacity 0.2s;
+      height: 1.3em;
+      line-height: 1.3em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
   }
   .bio-content {
       flex: 1;
@@ -658,8 +664,8 @@ html {
   }
   .venue-abbr {
       display: inline-block;
-      padding: 0.05em 0.55em;
-      margin: 0 0.1em;
+      padding: 0.1em 0.6em;
+      margin: 0.15em 0.25em 0.15em 0;
       border-radius: 4px;
       background: #eef2f7;
       color: #2c3e50;
@@ -677,6 +683,12 @@ html {
       color: #666;
       font-size: 0.95em;
       font-style: italic;
+  }
+
+  /* ===== Services list ===== */
+  .services-list li {
+      margin-bottom: 0.55em;
+      line-height: 1.7;
   }
 
   /* ===== Toggle buttons ===== */
